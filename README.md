@@ -42,6 +42,7 @@ Find the file `index.js` and complete the tasks until your tests are passing.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+closure  is the combination of a function bundled together with references to its surrounding state.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +64,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+used in the return. because its referencing the function.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+it generates a random number every time. all that stays the same is that its dansRoll.
 c. What is the lexical scope of `newRoll`? 
+global.
 
 ### Task 3 - Stretch Goals
 
